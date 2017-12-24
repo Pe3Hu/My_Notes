@@ -7,7 +7,7 @@ git remote add repo_name git@github.com:Pe3Hu/repo_name.git
 
 
 //woriking process
-git pull local_repo_name branch_name //
+git pull local_repo_name branch_name //master/experimental
 //after work, at the end
 git add *
 git commit -m "comment"
