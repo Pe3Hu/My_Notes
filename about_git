@@ -1,0 +1,15 @@
+//in directory
+git init 
+git add *
+git commit -m "comment"
+//adding remote repository
+git remote add repo_name git@github.com:Pe3Hu/repo_name.git
+
+
+//woriking process
+git pull local_repo_name branch_name //
+//after work, at the end
+git add *
+git commit -m "comment"
+git push local_repo_name branch_name
+
