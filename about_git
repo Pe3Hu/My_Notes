@@ -13,3 +13,9 @@ git add *
 git commit -m "comment"
 git push local_repo_name branch_name
 
+var direction_differences = [
+    [[-1,  0], [ 0, +1], [+1,  0],
+     [+1, -1], [ 0, -1], [-1, -1]],
+    [[-1, +1], [ 0, +1], [+1, +1],
+     [+1,  0], [ 0, -1], [-1,  0] ],
+]
